@@ -1,7 +1,7 @@
 Free Landing Page
 ===========
 
-> Landing page template with Babel, SASS, Swiper, webpack3 and lodash on board
+> Landing page template with Babel, SASS, Swiper, webpack3 and lodash on board -> [Demo](http://ceaseless-door.surge.sh/)
 
 ![freelanding](https://screenshots.firefoxusercontent.com/images/61928af3-5b85-44c2-acd4-8e7467c0c2cf.png)
 
