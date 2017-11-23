@@ -1,0 +1,41 @@
+.swiper-slide_hello{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    left: 11vw;
+    h2{
+        color: $black;
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    p{
+        font-weight: 500;
+        color: $darkerGray;
+    }
+    .bordered{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        font-style: italic;
+        padding-left: 15px;
+        border-left: 7px solid $blue;
+    }
+    a{
+        color: $green;
+        border: 2px solid $green;
+    }
+}
+
+@media screen and (max-width: $break-small) {
+    .swiper-slide_hello{
+        width: 100%;
+        left: 2vw;
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Free Landing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+</head>
+<body>
+<%= require('./templates/_menu.ejs')() %>
+<%= require('./templates/_menuButton.ejs')() %>
+<div class="swiper-container">
+   <%= require('./templates/_nav.ejs')() %>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide home">
+           <%= require('./templates/_firstSlide.ejs')() %>
+        </div>
+        <div class="swiper-slide about">
+           <%= require('./templates/_sayHello.ejs')() %> 
+        </div>
+        <div class="swiper-slide swiper-slide_before portfolio">
+           <%= require('./templates/_portfolio.ejs')() %> 
+        </div>
+        <div id="small-slide" class="swiper-slide small">
+             <%= require('./templates/_donate.ejs')() %>
+        </div>
+        <div class="swiper-slide contacts">
+            <%= require('./templates/_contacts.ejs')() %>
+        </div>
+        <div id="footer" class="swiper-slide">
+            <%= require('./templates/_footer.ejs')() %> 
+        </div>
+    </div>
+</div>
+</body>
+</html>

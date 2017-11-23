@@ -1,0 +1,14 @@
+.btn_big{
+    padding: 15px 45px 15px 45px;
+    border-radius: 3px;
+    display: inline-block;
+    .fa{
+            padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: $break-small) {
+    .btn_big{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,42 @@
+@import 'vars';
+@import 'slide';
+@import 'swipe-container';
+@import 'nav';
+@import 'menu';
+@import 'menuButton';
+@import 'contacts';
+@import 'footer';
+@import 'donate';
+@import 'btn';
+@import 'firstSlide';
+@import 'sayHello';
+@import 'portfolio';
+
+
+@font-face{ 
+	font-family: 'blackjack';
+	src: url('../fonts/blackjack-webfont.eot');
+	src: url('../fonts/blackjack-webfont.eot?iefix') format('eot'),
+	     url('../fonts/blackjack-webfont.woff') format('woff'),
+	     url('../fonts/blackjack-webfont.ttf') format('truetype'),
+	     url('../fonts/blackjack-webfont.svg#webfont') format('svg');
+}
+
+
+html, body {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+.hold{
+    height: 50vh;
+    background-color: aqua;
+    z-index: 100;
+    width: 100%;
+}

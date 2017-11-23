@@ -1,0 +1,97 @@
+.swiper-slide__socials{
+   .list-inline{
+        li{
+            display: inline-block;
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: 28px;
+            a{
+                &:hover{
+                    color: $blue;
+                    border-color: $blue;
+                }
+                transition: .3s;
+                border-radius: 50%;
+                display: flex;
+                height: 50px;
+                width: 50px;
+                border: 3px solid $black;
+                color: $black;
+                text-decoration: none;
+                i{
+                    margin: auto;
+                }
+            }
+        }
+    } 
+}
+
+.swiper-slide__contact-form{
+    margin-top: 70px;
+    form{
+        text-align: center;
+        label{
+            font-style: italic;
+            font-weight: 800;
+            margin-right: 20px;
+            color: $black;
+        }
+        input{
+            background-color: #fff;
+            border-top-left-radius: 12px;
+            border: 1px solid #fff;
+            font-style: italic;
+            padding: 8px;
+            padding-left: 12px;
+            width: 150px;
+            border-bottom-left-radius: 12px;
+        }
+        input::placeholder{
+                color: $darkerGray;
+                font-weight: 500;
+            }
+        button{
+            color: $blue;
+            background-color: #fff;
+            border: 1px solid #fff;
+            padding: 8px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            margin-left: -4px;
+            position: relative;
+            &:before{
+                content: '';
+                height: 10px;
+                background-color: #f1f1f1;
+                width: 2px;
+                position: absolute;
+                top: 50%;
+                left: -10px;
+                transform: translateY(-50%);
+            }
+            i{
+                padding-right: 8px;
+            }
+        }
+    }
+}
+
+ @media screen and (max-width: $break-small) {
+    .swiper-slide__socials{
+       .list-inline{
+            li{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        } 
+    }
+     
+     .swiper-slide__contact-form{
+        form{
+            label{
+                 display: block;
+            }
+        }
+    }
+}
+  

@@ -1,0 +1,39 @@
+nav {
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+    &:before{
+        content: '';
+        position: absolute;
+        height: 10px;
+        background-color: #FFF;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
+
+.navbar-brand{
+    left: 9vw;
+    width: 70px;
+    height: 70px;
+    box-shadow: 10px 10px 0px $blue;
+    background-color: #FFF;
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        left: 0;
+        right: 0;
+        height: 3px;
+        bottom: -3px;
+        background-color: $blue;
+    }
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

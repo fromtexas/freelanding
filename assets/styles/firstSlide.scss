@@ -1,0 +1,23 @@
+.swiper-slide_first{
+    position: absolute;
+    text-align: right;
+    top: 23vh;
+    right: 11vw;
+    h1{
+        font-family: 'blackjack';
+        font-size: 70px;
+        margin-bottom: 35px;
+    }
+    p{
+        font-size: 35px;
+        font-weight: 300;
+        margin-bottom: 45px;
+    }
+    a{
+        text-decoration: underline;
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: 15px;
+    }
+}
+

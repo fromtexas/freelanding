@@ -1,0 +1,45 @@
+.swiper-slide_portfolio{
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+    width: 37%;
+    h2{
+        color: $black;
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    p{
+        color: $darkerGray;
+        font-weight: 500;
+        &:nth-of-type(1){
+            margin-bottom: 0;
+        }
+        &:nth-of-type(2){
+            margin-bottom: 30px;
+        }
+        i{
+            color: $darker;
+        }
+    }
+    a{
+        margin-top: 40px;
+        color: $pink;
+        border: 2px solid $pink;
+    }
+}
+
+@media screen and (max-width: $break-small) {
+    .swiper-slide_portfolio{
+        width: 100%;
+        left: 2vw;
+        top: 50%;
+        transform: translateY(-50%);
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+}
